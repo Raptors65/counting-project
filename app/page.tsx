@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="text-center p-5 mx-auto max-w-2xl">
-      <h1 className="text-4xl font-bold">Tripping and Travelling Through Time</h1>
+      <h1 className="text-4xl font-bold">Forever Forgotten and Lost</h1>
       <div className="text-sm mt-2 font-bold">Andy Chai and Lucas Kim - MDM4UP - December 1, 2023</div>
       <p className="my-4">Note that you won&apos;t be able to toggle the music once you click start.</p>
       <p className="my-4">Whenever a video plays, the next question will show up automatically once you reach the end of the video.</p>
