@@ -13,7 +13,7 @@ export default function Page8() {
   const [isCorrect, setIsCorrect] = useState(false);
 
   const handleSubmit = () => {
-    if (answer === 'answer') {
+    if (answer === '16') {
       setIsCorrect(true);
       setErrorMessage('Correct!')
       push('/part9');
@@ -35,7 +35,17 @@ export default function Page8() {
         <h1 className="text-4xl font-bold mb-2">Question 8 (2.3)</h1>
 
 
-        <p className="text-left max-w-3xl mx-auto mt-2">Insert question here</p>
+        <p className="text-left max-w-3xl mx-auto mt-2">While building the time machine, you realize that you need to account for some likely ways things could go very wrong and build safety mechanisms for them:</p>
+        <ol className="text-left max-w-3xl mx-auto pl-10 list-decimal">
+          <li>A loss of power during time travel, resulting in the destruction of the time machine</li>
+          <li>A failure of the time GPS, resulting in you being sent to the wrong time</li>
+          <li>A glitch in the body scan, which would most likely result in only some part of you being sent back in time</li>
+          <li>Instead of sending you through time, the machine might send time through you, which would have the effect of turning you into a baby, an elderly man, or anything in between.</li>
+          <li>The time dilation adjustment might not work, meaning it takes you centuries or longer to travel back in time, so by the time you arrive, you&apos;re dead</li>
+        </ol>
+        <p className="text-left max-w-3xl mx-auto mt-2">You need to account for every way things could go wrong. Consider that multiple things go wrong (for example, you need to account for if just #2 goes wrong, and if #2 AND #3 go wrong, and if #2 AND #4 AND #5 go wrong, and every other case). The only exception to this is that if #1 goes wrong, then nothing else will go wrong (as the machine would be destroyed before any other issues occur).</p>
+        <p className="text-left max-w-3xl mx-auto mt-2">How many ways could things go wrong?</p>
+        
         
         <input className="mt-2 p-2 rounded text-black" type="text" placeholder="Answer" onChange={handleAnswerChange} />
         <button className="p-2 bg-green-700 ml-2 rounded hover:bg-green-600" onClick={handleSubmit}>Submit</button>
