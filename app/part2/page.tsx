@@ -38,29 +38,15 @@ export default function Page2() {
 
         <div className="bg-black border max-w-4xl mx-auto p-5 pt-2 mt-5">
           <p className="text-left max-w-3xl mx-auto mt-2">You have the following items:</p>
-          <ul className="text-left max-w-3xl mx-auto list-disc pl-10">
-            <li>backpack</li>
-            <li>hammer</li>
-            <li>wrench</li>
-            <li>notebook</li>
-            <li>aluminum water bottle</li>
-            <li>steel ruler</li>
-            <li>screwdriver</li>
-            <li>dagger</li>
-            <li>saw</li>
-            <li>pliers</li>
-            <li>tape measure</li>
-            <li>crossbow</li>
-            <li>knife</li>
-          </ul>
+          <p className="text-left max-w-3xl mx-auto mt-2">S = &lcub;backpack, hammer, wrench, notebook, aluminum water bottle, steel ruler, screwdriver, dagger, saw, pliers, tape measure, crossbow, knife&rcub;</p>
           <p className="text-left max-w-3xl mx-auto mt-2">You want to separate these items into metal items, tools, and weapons. You suppose that:</p>
           <ul className="text-left max-w-3xl mx-auto list-disc pl-10">
-            <li>The hammer, wrench, aluminum water bottle, steel ruler, screwdriver, dagger, saw, pliers, and knife are metal items.</li>
-            <li>The hammer, wrench, steel ruler, screwdriver, saw, pliers, tape measure, and knife are tools.</li>
-            <li>The dagger, crossbow, and knife are weapons.</li>
+            <li>Metal Items: M = &lcub;hammer, wrench, aluminum water bottle, steel ruler, screwdriver, dagger, saw, pliers, knife&rcub;</li>
+            <li>Tools: T = &lcub;hammer, wrench, steel ruler, screwdriver, saw, pliers, tape measure, knife&rcub;</li>
+            <li>Weapons: W = &lcub;dagger, crossbow, knife&rcub;</li>
           </ul>
 
-          <p className="text-left max-w-3xl mx-auto mt-2">How many items don&apos;t fit into multiple of these categories?</p>
+          <p className="text-left max-w-3xl mx-auto mt-2">Assuming S is the universal set, find n(((M ∩ T) ⋃ (M ∩ W) ⋃ (T ∩ W))’).</p>
         </div>
 
         <p className="text-left max-w-3xl mx-auto mt-5">This question was clearly left by the owner of the cabin. The question seems pointless but perhaps the solution can help you get some answers for your own situation. </p>
