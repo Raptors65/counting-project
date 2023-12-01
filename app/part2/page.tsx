@@ -1,6 +1,7 @@
 'use client';
 
 import { clsx } from "clsx";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -67,6 +68,7 @@ export default function Page2() {
         <input className="mt-2 p-2 rounded text-black" type="text" placeholder="Answer" onChange={handleAnswerChange} />
         <button className="p-2 bg-green-700 ml-2 rounded hover:bg-green-600" onClick={handleSubmit}>Submit</button>
         <p className={clsx('font-bold mt-2')}>{errorMessage}</p>
+        <Link href="https://docs.google.com/document/d/1Gtpi36Zikg1gOdVGNA5AFEdcgMoRwDHzC84cF3g-y44/edit#heading=h.fashyhmkrxt5" target="_blank" className="text-blue-300 underline">Stuck? Here&apos;s a link to the solution</Link>
       </main>
     </>
   )

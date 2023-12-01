@@ -1,6 +1,7 @@
 'use client';
 
 import { clsx } from "clsx";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -30,7 +31,7 @@ export default function Page1() {
       <video autoPlay playsInline controls={!isDone} className="object-fit w-screen h-screen fixed top-0 left-0" onEnded={() => setIsDone(true)}>
         <source src="/scene1to3-v4.mp4" type="video/mp4" />
       </video>
-      <main className={clsx('text-center bg-black bg-opacity-80 text-white h-90 relative h-screen pt-5', { hidden: !isDone })}>
+      <main className={clsx('text-center bg-black bg-opacity-80 text-white h-90 relative min-h-screen pt-5', { hidden: !isDone })}>
         <h1 className="text-4xl font-bold">Question 1 (2.4)</h1>
 
         <p className="text-left max-w-3xl mx-auto mt-2">A few days passed, and you&apos;re beginning to feel really hungry. Never one to go without a plan however, you decide to make a meal plan before going out and gathering food. You&apos;ve already made a quick survey of the land around the cabin, and have determined that the food you have access to and the food that you can create are as follows:</p>
@@ -45,6 +46,8 @@ export default function Page1() {
         <input className="mt-2 p-2 rounded text-black" type="text" placeholder="Answer" onChange={handleAnswerChange} />
         <button className="p-2 bg-green-700 ml-2 rounded hover:bg-green-600" onClick={handleSubmit}>Submit</button>
         <p className={clsx('font-bold mt-2')}>{errorMessage}</p>
+
+        <Link href="https://docs.google.com/document/d/1Gtpi36Zikg1gOdVGNA5AFEdcgMoRwDHzC84cF3g-y44/edit#heading=h.6ifv096f5y23" target="_blank" className="text-blue-300 underline">Stuck? Here&apos;s a link to the solution</Link>
       </main>
     </>
   )
