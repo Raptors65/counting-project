@@ -13,7 +13,7 @@ export default function Page2() {
   const [isCorrect, setIsCorrect] = useState(false);
 
   const handleSubmit = () => {
-    if (answer === '3') {
+    if (answer === '5') {
       setIsCorrect(true);
       setErrorMessage('Correct!')
       push('/part3');
