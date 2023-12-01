@@ -36,7 +36,7 @@ export default function Page6() {
 
 
         <p className="text-left max-w-3xl mx-auto mt-2">To take your mind off of things, you decide to think about the amount of ways you can take this walk.</p>
-        <p className="text-left max-w-3xl mx-auto mt-2">You first take a left at an intersection with 3 branches, then go straight at an intersection with 2 branches, and then go straight again at an intersection with 4 branches. You know from previous walks that all branches lead to the same next intersection, (for example going right instead of left at the first intersection will still lead to the same intersection with 2 branches that you reached by going left initially. Same idea with every other branch and intersection). You ask yourself how many ways there are to reach the next intersection where all of the 4 branches at the earlier intersection would&apos;ve intersected.</p>
+        <p className="text-left max-w-3xl mx-auto mt-2">You know there are 3 trails to take from the cabin, each of which branches into 2 paths, each of which then branches into 4 paths which end before branching further. Assuming you choose paths randomly, how many different routes can you take before reaching the end of a path?</p>
         
         <input className="mt-2 p-2 rounded text-black" type="text" placeholder="Answer" onChange={handleAnswerChange} />
         <button className="p-2 bg-green-700 ml-2 rounded hover:bg-green-600" onClick={handleSubmit}>Submit</button>
