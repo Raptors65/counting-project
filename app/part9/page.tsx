@@ -13,7 +13,7 @@ export default function Page9() {
   const [isCorrect, setIsCorrect] = useState(false);
 
   const handleSubmit = () => {
-    if (answer === '6720') {
+    if (answer === '30240') {
       setIsCorrect(true);
       setErrorMessage('Correct!')
       push('/end');
