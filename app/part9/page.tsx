@@ -35,7 +35,7 @@ export default function Page9() {
         <h1 className="text-4xl font-bold mb-2">Question 9 (1.5)</h1>
 
 
-        <p className="text-left max-w-3xl mx-auto mt-2">At the last minute, you decide to take your notebook with you and leave instructions inside in case you go amnesiac again. Your instructions are so long that you need to split them into 10 chapters:</p>
+        <p className="text-left max-w-3xl mx-auto mt-2">At the last minute, you decide to take your notebook with you and leave instructions inside in case you suffer from amnesia again. Your instructions are so long that you need to split them into 10 chapters:</p>
         <ul className="text-left max-w-3xl mx-auto list-disc pl-10">
           <li>Who you are</li>
           <li>The time loop situation - part 1</li>
