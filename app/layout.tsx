@@ -20,6 +20,7 @@ export default function RootLayout({
       audioEl.current?.pause();
     } else {
       audioEl.current?.play();
+      audioEl.current!.volume = 0.5;
     }
     setIsPlaying((isPlaying) => !isPlaying);
   };
