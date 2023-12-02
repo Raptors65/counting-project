@@ -35,7 +35,7 @@ export default function Page9() {
         <h1 className="text-4xl font-bold mb-2">Question 9 (1.5)</h1>
 
 
-        <p className="text-left max-w-3xl mx-auto mt-2">Your instructions are so long that you need to split them into 10 books:</p>
+        <p className="text-left max-w-3xl mx-auto mt-2">At the last minute, you decide to take your notebook with you and leave instructions inside in case you go amnesiac again. Your instructions are so long that you need to split them into 10 chapters:</p>
         <ul className="text-left max-w-3xl mx-auto list-disc pl-10">
           <li>Who you are</li>
           <li>The time loop situation - part 1</li>
@@ -52,8 +52,7 @@ export default function Page9() {
         <ul className="text-left max-w-3xl mx-auto list-disc pl-10">
           <li>&quot;The time loop situation - part 1&quot; must come before &quot;The time loop situation - part 2&quot;</li>
           <li>&quot;Physics&quot; and &quot;Calculus&quot; must come before &quot;Electrical engineering&quot;</li>
-          <li>&quot;Physics&quot; and &quot;Calculus&quot; must not be consecutive (you&quot;re worried that would burn your future self out)</li>
-          <li>&quot;Electrical engineering&quot; must come before &quot;How to build a time machine from scratch&quot;</li>
+          <li>&quot;How to repair the time machine&quot; must come after &quot;How to build a time machine from scratch&quot;</li>
           <li>&quot;Who you are&quot; must be the first chapter</li>
         </ul>
         <p className="text-left max-w-3xl mx-auto mt-2">In how many ways can you arrange the chapters?</p>
