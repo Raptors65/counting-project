@@ -29,7 +29,7 @@ export default function Page8() {
   return (
     <>
       <video autoPlay playsInline controls={!isDone} className="object-fit w-screen h-screen fixed top-0 left-0" onEnded={() => setIsDone(true)}>
-        <source src="/scene-10-v4.mp4" type="video/mp4" />
+        <source src="/scene-10-v5.mp4" type="video/mp4" />
       </video>
       <main className={clsx('text-center bg-black bg-opacity-80 text-white h-90 relative min-h-screen py-5', { hidden: !isDone })}>
         <h1 className="text-4xl font-bold mb-2">Question 8 (2.3)</h1>
