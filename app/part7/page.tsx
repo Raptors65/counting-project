@@ -40,7 +40,7 @@ export default function Page7() {
           First name: M I A I L L W<br />
           Last name: N O N H O J S
         </p>
-        <p className="text-left max-w-3xl mx-auto mt-2">Looking at the letters in your notebook doesn&apos;t ring a bell. You decide that you have to try and unscramble it by brute force, and try every combination. Maybe if you see the name you would remember it. First however, you want to check to see if it even is possible by checking the total number of permutations of first names plus the total number of permutations of last names you can make with these letters.</p>
+        <p className="text-left max-w-3xl mx-auto mt-2">Looking at the letters in your notebook doesn&apos;t ring a bell. You decide that you have to try and unscramble it by brute force, and try every combination. Maybe if you see the name you would remember it. First however, you want to check to see if it even is possible by checking the maximum number of guesses you&apos;ll need to remember the name. Note that once you see the first name, you believe that you&apos;ll recognize it and be able to move on to the last name.</p>
         
         <input className="mt-2 p-2 rounded text-black" type="text" placeholder="Answer" onChange={handleAnswerChange} />
         <button className="p-2 bg-green-700 ml-2 rounded hover:bg-green-600" onClick={handleSubmit}>Submit</button>
